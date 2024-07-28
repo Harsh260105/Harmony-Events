@@ -1,0 +1,109 @@
+.mainone {
+    margin-left: -10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first {
+    position: relative;
+}
+
+.first img {
+    width: 100%;
+}
+
+.headercontent {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgrid{
+    display: grid; justify-content: center;
+    grid-template-columns: auto auto; width: 100vw;
+    row-gap: 0px;margin-top: -8px; column-gap: 10px;
+    background-color: #0c0817;
+    height: 1300px;
+    padding-top: 20px;
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+}
+
+.midheader {
+    display: flex; justify-content: center;
+    align-items: center; margin: 35px;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.card>img{
+    width: 670px; height: 300px;
+    position: relative;
+    /* margin-top: 30px; */
+}
+.card{
+    display: flex;flex-direction: column;
+}
+.topimg{
+    margin-top: 0px;
+}
+.location>p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+.location>iframe{
+    width: 100vw;
+    height: 400px;
+}
+.offer{
+    display: flex;
+    position: absolute;
+    left: 250px; align-items: center;
+    top: 50px;
+}
+.offer>p{
+    font-size:xx-large;
+    font-weight: 600;margin-right: 200px;
+}
+.offer>button{
+    width: 180px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: orange;
+    border: 0px; font-weight: bold;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.off>img{
+    width: 100vw;
+    height: 200px;
+}
+.off{
+    position: relative;
+}
+.tr>p{
+    color: #fff; margin-left: 10px;
+    font-size: smaller;
+}
+.tr{
+    /* margin: 10px; */
+    /* margin-left: 10px; */
+    margin-top: 240px;
+    height: 60px;
+    position: absolute;
+    opacity: 0.6;
+    width: 670px;
+    background-color: rgb(19, 19, 19)
+}

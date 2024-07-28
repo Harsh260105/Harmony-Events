@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 99.30vw;
+}
+
+.first {
+    position: relative;
+    height: 57vh;
+}
+
+.first img {
+    width: 100%;
+}
+
+.headercontent {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.middl{
+    display: flex;
+    margin-top: -4px;
+    border: 2px solid black;
+}
+.middl>img{
+    flex: 6;
+    
+}
+.cont{
+    background-color: white;
+    flex: 4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+} 
+.inp{
+    display: flex;
+    flex-direction: column; 
+    width: 80%; 
+    gap: 15px;
+    padding: 10px;
+    
+}
+.inp>input{
+    padding: 10px;
+}
+.inp>button{
+    border-radius: 5px;
+    margin-top: 20px; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.cont>p{
+    font-size: 20px;margin-top: 0px;
+}
+.cont>img{
+    margin-top: 20px;
+    width: 40px;
+}
+
+/* 
+.main {
+    
+    background-color: rgb(5, 5, 37);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main>img {
+   width: auto;
+   height: auto;
+}
+
+.middl{
+    display: flex;
+    background-color: rgb(5, 5, 37);
+}
+.middl>img{
+  flex: 60%;
+}
+.cont{
+    background-color: white;
+    flex: 40%;
+    text-align: center;
+}
+.inp{
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inp>input{
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.inp>button{
+    padding: 10px; 
+    border-radius: 5px;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    color: white;
+}
+
+.cont>p{
+    font-size: 20px;margin-top: 0px;
+}
+.cont>img{
+    margin-top: 20px;
+    width: 40px;
+} */

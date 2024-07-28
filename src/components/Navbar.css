@@ -1,0 +1,31 @@
+.nav{
+    position: fixed;z-index: 999;
+    display: flex;margin-top: -12px; 
+    width: 100vw; 
+    align-items: center;
+    height: 100px;margin-left: -10px;
+    /* background-color: #050043; */
+    background: linear-gradient(to right,#14324b 5%,#01000d);
+    gap: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.icon>img{
+    height: auto;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+li{
+    color: white;
+    margin: 15px; cursor: pointer;
+    margin-top: 23px;
+}
+li:hover{
+    color: rgb(227, 147, 56);
+}
+.content {
+    list-style: none;
+    display: flex;
+    font-size: large;
+    margin-left: -160px;
+}

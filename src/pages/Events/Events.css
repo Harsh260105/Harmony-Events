@@ -1,0 +1,27 @@
+.outermost{
+    margin-left: -10px;
+    
+}
+
+.evimg{
+    display: grid; justify-content: center;
+    grid-template-columns: auto auto auto; width: 100vw;
+    margin-top: 20px; column-gap: 50px;
+    background-color: #0c0817;height: 650px;
+}
+.ev>img{
+    width: 430px; height: 200px;
+}
+.ev{
+    background-color: #072b64;
+    height: 230px;
+    text-align: center;
+    color: #b1c8ec;
+}
+.a{
+    margin-top: 50px;
+}
+.ev>p{
+    font-size: large;
+    margin-top: 0px;
+}

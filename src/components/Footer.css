@@ -1,0 +1,48 @@
+.foot{
+  width: auto;
+  height: auto;
+  background: linear-gradient(to bottom,#11293d 20%,#06022f);
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+h1{
+  background: linear-gradient(to right, #a74ef4,#f59074);
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
+  background-clip: text;
+   text-align: center;
+   font-size: 50px;
+  
+}
+
+.Req{
+  margin-left: 43.7%;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+  color: white; 
+  background: #11293d;
+  border: solid 1px white;
+  font-size: 16px;
+}
+.reac{
+  width: 100px;
+}
+ul{
+  list-style-type: none;
+}
+.midcon{
+  margin-top: 100px;
+  display: flex;color: white;
+  justify-content: space-around;
+}
+.fin{
+  margin-top: 50px;
+  margin-left: 103px;
+}
+.gpt{
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+}
