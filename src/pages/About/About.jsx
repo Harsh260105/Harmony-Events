@@ -94,7 +94,7 @@ export default function About() {
                   date="AUG 2015"
                   iconStyle={{ background: "#333", color: "#fff" }}
                 >
-                  <h3 className="vertical-timeline-element-title">1st Place for Unique Events 2018</h3>
+                  <h3 className="vertical-timeline-element-title" >1st Place for Unique Events 2018</h3>
                   <h4 className="vertical-timeline-element-subtitle">
                   </h4>
                   <p></p>

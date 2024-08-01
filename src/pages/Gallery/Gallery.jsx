@@ -1,18 +1,19 @@
 import React from "react";
 import moun from "../../assets/mountain.jpeg";
-import Speaker from "../../assets/speaker2.jpeg";
-import Guitar from "../../assets/guitar.jpeg";
-import Food from "../../assets/food.jpeg";
-import Laptop from "../../assets/laptop.jpeg";
-import Firecracker from "../../assets/firecracker.jpeg";
-import Party from "../../assets/party.jpeg";
-import Man from "../../assets/man.jpeg";
-import Running from "../../assets/runnimg.jpeg";
 import Offer from "../../assets/offer.jpeg";
 import "./Gallery.css";
 
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+
+import collage from "../../assets/frgallery/collage.jpg";
+import concert from "../../assets/frgallery/concert.jpg";
+import concert2 from "../../assets/frgallery/concert 2.jpg";
+import gathering from "../../assets/frgallery/gathering.jpg";
+import gathering2 from "../../assets/frgallery/gathering 2.jpg";
+import party from "../../assets/frgallery/party.jpg";
+import wedding from "../../assets/frgallery/wedding.jpg";
+import wedding2 from "../../assets/frgallery/wedding 2.jpg";
 
 const Gallery = () => {
   return (
@@ -34,66 +35,66 @@ const Gallery = () => {
         <div className="midheader">--------🌟Our Gallery🌟--------</div>
         <div className="imgrid">
           <div className="card">
-            <img className="topimg" src={Speaker} alt="" />
+            <img className="topimg" src={wedding} alt="" />
             <div className="tr">
               <p>
-                
+                Wedding
               </p>
             </div>
           </div>
           <div className="card">
-            <img className="topimg" src={Guitar} alt="" />
+            <img className="topimg" src={wedding2} alt="" />
             <div className="tr">
               <p>
-               
+                Wedding 
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Food} alt="" />
+            <img src={concert} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                Concert
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Laptop} alt="" />
+            <img src={concert2} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                Concert
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Firecracker} alt="" />
+            <img src={gathering} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                Gathering
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Party} alt="" />
+            <img src={gathering2} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                Gathering
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Man} alt="" />
+            <img src={party} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                party
               </p>
             </div>
           </div>
           <div className="card">
-            <img src={Running} alt="" />
+            <img src={collage} alt="" />
             <div className="tr">
               <p>
-                Hii there <br /> Hello there
+                Collage Fest
               </p>
             </div>
           </div>

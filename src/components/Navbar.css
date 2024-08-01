@@ -6,7 +6,7 @@
     height: 100px;margin-left: -10px;
     /* background-color: #050043; */
     background: linear-gradient(to right,#14324b 5%,#01000d);
-    gap: 200px;
+    /* gap: 200px; */
     font-family: 'Poppins', sans-serif;
 }
 .icon>img{
@@ -15,17 +15,37 @@
     margin-top: 5px;
 }
 
-li{
+/* li{
     color: white;
     margin: 15px; cursor: pointer;
     margin-top: 23px;
-}
-li:hover{
+} */
+
+/* li:hover{
     color: rgb(227, 147, 56);
-}
+} */
+
 .content {
     list-style: none;
     display: flex;
     font-size: large;
-    margin-left: -160px;
+    margin-left: 55px;
+    margin-top: 6px;
 }
+
+.nav .content li a {
+    text-decoration: none;
+    color: rgba(138, 134, 134, 0.919); /* Normal state color */
+    padding: 10px 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav .content li a.active {
+    color: #007bff; /* Color for the active state */
+    font-weight: bold; /* Optional: Make active item bold */
+  }
+  
+  .nav .content li a:hover {
+    color: #0056b3; /* Hover state color */
+  }
+  

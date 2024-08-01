@@ -8,6 +8,7 @@ import Events from './pages/Events/Events.jsx'
 import Gallery from './pages/Gallery/Gallery.jsx'
 import SignUp from './pages/Dropdown/Signup/Sign_up.jsx'
 import Make_change from './pages/Dropdown/Makechange/Make_change.jsx'
+import Eventbooking from './pages/Eventbook/Eventbooking.jsx'
 import './App.css'
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
           <Route path='/events' element={<Events />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/change-user-info' element={<Make_change />} />
-        </Routes>
+          <Route path="/event/:id" element={<Eventbooking />} />
+          </Routes>
       </Router>
     </>
   )

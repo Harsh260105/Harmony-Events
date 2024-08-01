@@ -1,40 +1,49 @@
-import logo from "../assets/icon.png";
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import logo from "../assets/icon.png";
 import "./Navbar.css";
 import './Dropdown.css';
 
 function Nav() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => setIsOpen(!isOpen);
 
-  const navigate = useNavigate("");
   return (
-    
-    <div class="nav">
-      <div class="icon">
+    <div className="nav">
+      <div className="icon">
         <img src={logo} alt="logo" />
       </div>
-      <div class="content">
-        <li onClick={() => navigate("/")}>HOME</li>
-        <li onClick={() => navigate("/about")}>ABOUT</li>
-        <li onClick={() => navigate("/events")}>EVENTS</li>
-        <li onClick={() => navigate("/gallery")}>GALLERY</li>
-        <li onClick={() => navigate("/contact")}>CONTACT</li>
-
-        {/* <NavLink to="/" activeClassName="active"> HOME </NavLink>
-        <NavLink to="/about" activeClassName="active"> ABOUT </NavLink>
-        <NavLink to="/events" activeClassName="active"> EVENTS </NavLink>
-        <NavLink to="/gallery" activeClassName="active"> GALLERY </NavLink>
-        <NavLink to="/contact" activeClassName="active"> CONTACT </NavLink> */}
+      <div className="content">
+        <li>
+          <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+            HOME
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+            ABOUT
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/events" className={({ isActive }) => (isActive ? "active" : "")}>
+            EVENTS
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/gallery" className={({ isActive }) => (isActive ? "active" : "")}>
+            GALLERY
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+            CONTACT
+          </NavLink>
+        </li>
       </div>
       
       <div className="dropdown">
-        <button onClick={toggleOpen} className="dropdown-button">Sign In <span className="">⯆</span></button>
-
+        <button onClick={toggleOpen} className="dropdown-button">Sign In <span className="">▽</span></button>
         {isOpen && (
           <div className="dropdown-content">
             <a href="/signin">Sign In</a>
@@ -43,9 +52,7 @@ function Nav() {
           </div>
         )}
       </div>
-      
     </div>
-    
   );
 }
 
