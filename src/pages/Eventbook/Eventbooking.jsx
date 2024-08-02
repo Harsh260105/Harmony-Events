@@ -4,7 +4,7 @@ import './Eventbooking.css';
 
 const Eventbooking = () => {
   const { state } = useLocation();
-  const { event } = state || {};  // Fallback if state is undefined
+  const { event } = state || {};  
 
   if (!event) {
     return <div>No event data available.</div>;
